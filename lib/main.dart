@@ -52,7 +52,6 @@ class MyApp extends StatelessWidget {
         home: const SplashScreen());
   }
 }
-
 Future<void> _initializeFirebase() async {
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
